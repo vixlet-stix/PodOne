@@ -10,6 +10,7 @@
 		2F95E6C31B5EFCB7009EFA12 /* PodOne.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2F95E6C21B5EFCB7009EFA12 /* PodOne.h */; };
 		2F95E6C51B5EFCB7009EFA12 /* PodOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95E6C41B5EFCB7009EFA12 /* PodOne.m */; };
 		2F95E6CB1B5EFCB7009EFA12 /* libPodOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F95E6BF1B5EFCB7009EFA12 /* libPodOne.a */; };
+		2FCA37061B6068A00023459A /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2FCA37051B6068A00023459A /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		2F95E6C41B5EFCB7009EFA12 /* PodOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodOne.m; sourceTree = "<group>"; };
 		2F95E6CA1B5EFCB7009EFA12 /* PodOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F95E6D01B5EFCB7009EFA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCA37051B6068A00023459A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				2F95E6C11B5EFCB7009EFA12 /* PodOne */,
 				2F95E6CE1B5EFCB7009EFA12 /* PodOneTests */,
 				2F95E6C01B5EFCB7009EFA12 /* Products */,
+				2FCA37051B6068A00023459A /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCA37061B6068A00023459A /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +366,7 @@
 				2F95E6D51B5EFCB7009EFA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F95E6D61B5EFCB7009EFA12 /* Build configuration list for PBXNativeTarget "PodOneTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +375,7 @@
 				2F95E6D81B5EFCB7009EFA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
